@@ -1,0 +1,285 @@
+
+
+#maincontainer
+{
+	display: flex;
+	
+	height: 100%;
+	
+}
+
+aside/* la page jaune dont photo+renseignements */
+{
+	width: 20%;
+	height: 100%;
+	background-color: #ffc720;
+	
+
+}
+
+#photo   /*partie jaune contenant la photo*/
+{
+	height: 180px;
+	width: auto;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#photoidentite /*la photo*/
+{
+	
+	width: 120px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+
+.activite
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	
+
+}
+.infotitle/* tous les h3 de aside */
+{
+	background-color: grey;
+	color: #ffc720;
+	padding-left: 8%;
+	
+}
+#renseignements/* tous ce qu'il y a dans contact */
+{
+	margin-left: 5px;
+	margin-bottom: 40%;
+	
+}
+
+#qqslignes/* tous ce qu'il y a dans a propos */
+{
+	margin-left: 5px;
+	margin-bottom: 110%;
+	margin-right: 5px;
+	
+}
+
+article/*page blanche*/
+{
+	width: calc(100% - 300px);
+	height: 100%;
+}
+h1
+{
+	font-family: "yu gothic", "trebuchet ms", serif;
+	font-size: 23px;
+	
+	
+	word-spacing: 5px;
+	
+}	
+h1 span
+{
+	color: #ffc720;
+}	
+h2
+{
+	
+	
+	word-spacing: 5px;
+}
+h2 span
+{
+	text-decoration: underline #ffc720;
+}
+	
+.iconfaperso /*chapeau*/
+{
+	float: left;
+	font-size: 30px;
+	margin-left: 30px;
+	color: #ffc720;
+	
+}
+.firsttitle /*formation*/
+{
+	font-weight: bold;
+	margin-left: 90px;
+	margin-top: 50px;
+	
+}
+
+.undertitel /*enumeration sous titre*/
+{
+	clear: both;
+	border-top: 3px #ffc720 solid;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.undertitel2 /*enumeration sous titre*/
+{
+	clear: both;
+	border-top: 3px #ffc720 solid;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+}
+.undertitel > div
+{
+	margin-top: 10px;
+}
+
+.yellowpoint1 /*grande taille*/
+{
+	width: 25px;
+	height: 25px;
+
+
+}
+.yellowpoint2 /*petite taille*/
+{
+	width: 15px;
+	height: 15px;
+	margin-left: 3px;
+}
+
+.rightcolumn
+{
+	width: 65%;
+}
+.leftcolumn
+{
+	width: 35%;
+}
+
+.element1
+{
+	margin-top: 50px;
+	
+	word-spacing: 15px;
+
+}
+div span
+{
+	margin-top: 60px;
+	margin-left: 40px;
+}
+.element2
+{
+	margin-top: 50px;
+	
+	word-spacing: 15px;
+}
+#professionalexperiences
+{
+	margin-top: 50px;
+
+}
+#training
+{
+	margin-top: 50px;
+}
+@media all and (max-width: 760px)
+{
+	#maincontainer
+	{
+		
+		flex-direction: column-reverse;
+		
+		height: 100%;
+	}
+	aside 
+	{
+				
+		margin-top: 50px;
+		width: 100%
+		
+	}
+
+	
+
+	#photoidentite
+	{
+		
+		width: 130px;
+		height: 150px;
+		
+
+	} 
+	.activite
+	{
+		width: 100px;
+		height: 100px;
+
+	}	
+	header h1
+	{
+		border: 1px solid;
+		text-align: center;
+
+	}
+	article
+	{
+		width: 100%;
+
+	}
+	h1 span,h2 span
+	{
+		margin: 0;
+	}
+	h2
+	{
+		text-align: center;
+	}
+	.element
+	{
+		font-size: 20px;
+	}
+	.leftcolumn, .rightcolumn
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	#renseignements/* tous ce qu'il y a dans contact */
+	{
+	
+	margin-bottom: 10%;
+	}
+
+	#qqslignes/* tous ce qu'il y a dans a propos */
+	{
+	
+	margin-bottom: 20%;
+	
+	}
+
+@media all and (max-width: 420px)
+{
+	.undertitel2
+	{
+		display: flex;
+		flex-direction: column;
+		border-top: 3px #ffc720 solid;
+		margin-left: 20px;
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+	.undertitel2 > div
+	{
+		padding-top: 15px;
+	}
+
+}
+
+
+
+	
+	
+	
