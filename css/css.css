@@ -46,9 +46,9 @@ aside/* la page jaune dont photo+renseignements */
 }
 .infotitle/* tous les h3 de aside */
 {
-	background-color: grey;
+	background-color: #635f5f;
 	color: #ffc720;
-	padding-left: 8%;
+	padding-left: 25%;
 	
 }
 #renseignements/* tous ce qu'il y a dans contact */
