@@ -48,7 +48,7 @@ aside/* la page jaune dont photo+renseignements */
 {
 	background-color: #635f5f;
 	color: #ffc720;
-	padding-left: 25%;
+	padding-left: 10%;
 	
 }
 #renseignements/* tous ce qu'il y a dans contact */
@@ -108,7 +108,7 @@ h2 span
 	font-weight: bold;
 	margin-left: 90px;
 	margin-top: 50px;
-	
+	font-size: 20px;
 }
 
 .undertitel /*enumeration sous titre*/
